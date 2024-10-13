@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  background-color: rgb(52, 52, 52);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(67, 66, 66);
+}
+</style>
+</head>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  #grad1 {
+    height: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(128, 128, 128), rgb(255,255,255)); /*remove white*/
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav-right {
+    float: right;
+  }
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #090909;
+  color: white;
+}
+.container {
+  padding: 0 16px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title {
+  color: grey;
+}
+.button {
+
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+  <section>
+  <div class="topnav" div id="grad1">
+    <img src="images/Logo.png" height="80px" width="80px" >
+    <div class="topnav-right">
+      <a href="HomePage.html">Home </a>
+      <a href="products.html">Our Products</a>
+      <a href="Contact Us.html">Contact Us</a>
+    </div>
+  </section>
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>IFruit is a technology company that creates great products based on a design-driven value, with smart devices and intelligent services as its core.</p>
+  <h2> MISSION</h2>
+  <p>Create great products for usersCreate a joyful and progressive environment for employees Create win-win platforms for partners based on mutual trustRender steady long term returns on investment for shareholders. </p>
+  <h3> VISION </h3>
+  <p>Develop into a healthier, more sustainable world-class corporation. </p>
+
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images\EMP1.jpg" alt="CEO" style="width:25%">
+      <div class="container">CEO</h2>
+        <p class="title">CEO & Founder</p>
+        <p>I AM THE CEO OF THIS COMPANY</p>
+        <p>xyz@mail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images\EMP2.jpg" alt="CFO" style="width:25%">
+      <div class="container">
+        <h2> CFO</h2>
+        <p class="title">Chief Fiance Officer</p>
+        <p>I AM THE CFO OF THIS COMPANY</p>
+        <p>def@mail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images\EMP3.jpg" alt="CMO" style="width:25%">
+      <div class="container">
+        <h2>CMO</h2>
+        <p class="title">Chief Marketing Officer</p>
+        <p>I AM THE CMO OF THIS COMPOANY</p>
+        <p>mno@mail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+    
+  <div class="column">
+    <div class="card">
+      <img src="images\EMP4.jpg" alt="Ujjwal" style="width:25%;float:left">
+      <div class="container">
+        <h2>Ujjwal</h2>
+        <p class="title">Manager</p>
+        <p>I AM THE MANAGER IN THIS COMPANY</p>
+        <p>abc@mail.com</p>
+        <p><button class="button">Contact</button></p>
+    </div>
+  </div>
+</div> 
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+#grad1 {
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(128, 128, 128), rgb(255,255,255)); /*remove white*/
+  }
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav-right {
+    float: right;
+  }
